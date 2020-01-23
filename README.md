@@ -1,6 +1,6 @@
-# Smooth Grad-CAM++ with pytorch
-The re-implementation of Smooth Grad-CAM++ with pytorch.
-This repo also includes the code of CAM, Grad-CAM and Grad-CAM++.
+# Randomized Input Sampling for Explanation of Black-box Models (RISE)
+The re-implementation of RISE with pytorch.
+This repo also includes the code of CAM and Grad-CAM.
 
 ## Requirements
 * python 3.x
@@ -11,8 +11,8 @@ This repo also includes the code of CAM, Grad-CAM and Grad-CAM++.
 * matplotlib
 
 ## How to use
-You can use the CAM, GradCAM, GradCAM++ and Smooth Grad-CAM++ as a model wrapper described in `cam.py`.
-Please see `demo.ipynb` for the detail.
+You can use RISE as well as CAM, GradCAM as a model wrapper described in `rise.py` and `cam.py`.
+Please see jupyter notebook files for the detail.
 
 # Results
 |image|![](sample/tigercat.jpg)|![](sample/dogsled.jpg)|
